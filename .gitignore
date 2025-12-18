@@ -1,4 +1,17 @@
+# Virtual environments
+venv/
+.env/
 .venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# PyCharm
 .idea/
-users/migrations/
-db.sqlite3
+
+# Environment variables
+.env
+
+# Migrstion
+users/migrations
