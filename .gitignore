@@ -14,4 +14,4 @@ __pycache__/
 .env
 
 # Migrstion
-users/migrations
+users/migrations/
