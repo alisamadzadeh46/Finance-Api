@@ -10,9 +10,6 @@ __pycache__
 # PyCharm
 .idea
 
-# Environment variables
-.env
-
 # Migrstion
 users/migrations/
 
