@@ -114,19 +114,36 @@ SIMPLE_JWT = {
 ## 🚀 Getting Started
 
 ```bash
+# 1. Clone the repository
 git clone https://github.com/alisamadzadeh46/Finance-Api.git
 cd Finance-Api
 
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+# 2. Create virtual environment
+py -m venv .venv
 
+# 3. Activate virtual environment
+# Windows:
+.\.venv\Scripts\Activate
+# Mac/Linux:
+source .venv/bin/activate
+
+# 4. Install dependencies
 pip install -r requirements.txt
 
+# 5. Run migrations
 python manage.py migrate
+
+# 6. Create superuser (optional)
 python manage.py createsuperuser
+
+# 7. Start the server
 python manage.py runserver
 ```
 
+> After running, visit:
+> - Swagger UI: http://localhost:8000/api/docs/
+> - ReDoc: http://localhost:8000/api/redoc/
+> - Admin panel: http://localhost:8000/admin/
 ---
 
 ## ⚠️ Security Notes
